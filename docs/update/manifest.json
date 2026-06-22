@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "channel": "stable",
+  "generatedAt": "2026-06-21T10:43:13.900Z",
+  "components": {
+    "bridge": {
+      "latestVersion": "0.4.0",
+      "releaseNotes": {
+        "zh": "Bridge 正式更新包：用于替换本地 Bridge 运行时并自动恢复启动。",
+        "en": "Formal Bridge update package for runtime replacement and restart recovery."
+      },
+      "installKind": "replace_files",
+      "packages": {
+        "windows_x64": {
+          "url": "https://github.com/xiongrubing335100-beep/imvia-downloads/releases/download/v0.4.0/bridge-windows-x64-0.4.0.zip",
+          "sha256": "34ea4932c6caf984417f0015496d702bcd7a54b897b020f04afbee34528132a7",
+          "size": 123627511,
+          "fileName": "bridge-windows-x64-0.4.0.zip"
+        }
+      }
+    },
+    "cep": {
+      "latestVersion": "0.4.0",
+      "requiresPhotoshopClosed": true,
+      "releaseNotes": {
+        "zh": "CEP 正式更新包：用于替换 Photoshop CEP 面板文件，安装后请重新打开 Photoshop。",
+        "en": "Formal CEP update package for Photoshop CEP file replacement. Reopen Photoshop after install."
+      },
+      "installKind": "replace_files",
+      "packages": {
+        "windows": {
+          "url": "https://github.com/xiongrubing335100-beep/imvia-downloads/releases/download/v0.4.0/cep-windows-0.4.0.zip",
+          "sha256": "0768db3dc2a569023edbd0d58f83eb207f195e698ef19798a3bf53a059ca5ff4",
+          "size": 71470,
+          "fileName": "cep-windows-0.4.0.zip"
+        }
+      }
+    },
+    "uxp": {
+      "latestVersion": "0.4.0",
+      "releaseNotes": {
+        "zh": "UXP 正式更新包：下载并打开 .ccx，由 Adobe 安装流程完成更新。",
+        "en": "Formal UXP update package. Downloads and opens the .ccx for Adobe-side installation."
+      },
+      "installKind": "ccx_open",
+      "packages": {
+        "ccx": {
+          "url": "https://github.com/xiongrubing335100-beep/imvia-downloads/releases/download/v0.4.0/uxp-modern-0.4.0.ccx",
+          "sha256": "0c9906503818ba9baa2c61b8ca8d9272af32c01fdd06a9d94c22bca78eb8de5e",
+          "size": 113111,
+          "fileName": "uxp-modern-0.4.0.ccx"
+        }
+      }
+    }
+  }
+}
