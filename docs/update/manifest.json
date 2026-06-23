@@ -1,21 +1,33 @@
 {
   "schemaVersion": 1,
   "channel": "stable",
-  "generatedAt": "2026-06-21T10:43:13.900Z",
+  "generatedAt": "2026-06-23T10:31:05.263Z",
   "components": {
     "bridge": {
-      "latestVersion": "0.4.0",
+      "latestVersion": "0.4.1",
       "releaseNotes": {
-        "zh": "Bridge 正式更新包：用于替换本地 Bridge 运行时并自动恢复启动。",
-        "en": "Formal Bridge update package for runtime replacement and restart recovery."
+        "zh": "Fix Lovart single-image Photoshop transfer free-source gating; prefer the visible Photoshop panel receiver.",
+        "en": "Fixes Lovart single-image Photoshop transfer being incorrectly blocked by Free source gating, and prefers the visible Photoshop panel receiver."
       },
       "installKind": "replace_files",
       "packages": {
         "windows_x64": {
-          "url": "https://github.com/xiongrubing335100-beep/imvia-downloads/releases/download/v0.4.0/bridge-windows-x64-0.4.0.zip",
-          "sha256": "34ea4932c6caf984417f0015496d702bcd7a54b897b020f04afbee34528132a7",
-          "size": 123627511,
-          "fileName": "bridge-windows-x64-0.4.0.zip"
+          "url": "https://github.com/xiongrubing335100-beep/imvia-downloads/releases/download/0.4.0/bridge-windows-x64-0.4.1.zip",
+          "sha256": "98fb770c94da67de77cae19b413bc4163772067662ae416e2797d4c3b08d58ef",
+          "size": 121051031,
+          "fileName": "bridge-windows-x64-0.4.1.zip"
+        },
+        "mac_x64": {
+          "url": "https://github.com/xiongrubing335100-beep/imvia-downloads/releases/download/0.4.0/bridge-mac-x64-0.4.1.zip",
+          "sha256": "1ba1e1f3fcb5c7d5194f65ad98a2738978dcf54cd97a00461f6cf13d636fcf82",
+          "size": 106533102,
+          "fileName": "bridge-mac-x64-0.4.1.zip"
+        },
+        "mac_arm64": {
+          "url": "https://github.com/xiongrubing335100-beep/imvia-downloads/releases/download/0.4.0/bridge-mac-arm64-0.4.1.zip",
+          "sha256": "b1b8a6916ff0b70a012478c2a6650a869c4f381812a2ce3b1d6407759eb81141",
+          "size": 102133482,
+          "fileName": "bridge-mac-arm64-0.4.1.zip"
         }
       }
     },
